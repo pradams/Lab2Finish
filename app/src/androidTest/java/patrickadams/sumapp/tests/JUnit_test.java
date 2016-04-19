@@ -22,6 +22,8 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity>{
         super(MainActivity.class);
     }
 
+
+    // Test sum method.
     public void test_first(){
         mainActivity = getActivity();
 
