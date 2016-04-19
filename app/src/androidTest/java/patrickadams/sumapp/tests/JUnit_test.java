@@ -30,9 +30,9 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity>{
         int num1 = 50;
         int num2 = 25;
 
-        int result = mainActivity.sum(num1, num2);
+        int result = mainActivity.subtract(num1, num2);
 
-        assertEquals(75, result);
+        assertEquals(25, result);
 
     }
 

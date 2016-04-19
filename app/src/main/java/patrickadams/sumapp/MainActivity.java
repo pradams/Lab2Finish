@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
                 first = Integer.parseInt(num1.getText().toString());
                 second = Integer.parseInt(num2.getText().toString());
 
-                result = sum(first, second);
+                result = subtract(first, second);
                 addResult.setText(Integer.toString(result));
             }
         });
     }
 
-    public int sum(int num1, int num2){
+    public int subtract(int num1, int num2){
         return num1 - num2;
     }
 }
