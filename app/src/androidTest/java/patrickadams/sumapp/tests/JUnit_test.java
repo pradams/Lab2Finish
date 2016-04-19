@@ -23,7 +23,7 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity>{
     }
 
 
-    // Test sum method.
+    // Test sum method. Checks if output is equal to 75.
     public void test_first(){
         mainActivity = getActivity();
 
